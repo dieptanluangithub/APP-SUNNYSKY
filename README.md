@@ -1,5 +1,6 @@
 # APP-SUNNYSKY
  APP HỌC NGÔN NGỮ SUNNYSKY (LUYỆN THI TIẾNG ANH TOEIC) TRÊN ANDROID 
+![image](https://user-images.githubusercontent.com/82451887/187743511-e8028b76-dfdb-40de-8a1c-3b3fdb7e2504.png)
 
 Tên đề tài: Xây dựng ứng dụng học ngôn ngữ (luyện thi tiếng anh TOIEC) trên Android
 Tên ứng dụng: Ứng dụng học ngôn ngữ Sunny Sky 
@@ -18,9 +19,15 @@ Chức năng chính của ứng dụng:
 -	Chỉnh sửa thông tin người dùng.
 -	Quản lý nội dung của ứng dụng (bộ học tập, từ vựng, trắc nghiệm, sắp xếp câu, luyện nghe, điền khuyết)
 
-![image](https://user-images.githubusercontent.com/82451887/187743177-a043decf-9718-4e16-b51a-018756efe496.png)
-![image](https://user-images.githubusercontent.com/82451887/187743206-48288dd7-be93-48d3-83d0-2566849ec7fd.png)
-![image](https://user-images.githubusercontent.com/82451887/187743232-7c2deab3-27d6-4af7-ab99-9c1061e452c1.png)
+![image](https://user-images.githubusercontent.com/82451887/187743555-f0ba3793-2527-4f07-b497-e1ac50b1e0b0.png)
+![image](https://user-images.githubusercontent.com/82451887/187743577-157c0bca-dba2-4b56-901d-70e02694c37a.png)
 ![image](https://user-images.githubusercontent.com/82451887/187743249-fa792967-7e47-4313-a701-0434f8754a3d.png)
 ![image](https://user-images.githubusercontent.com/82451887/187743296-f013ae3f-88fc-43f9-a5a2-ac808f3856eb.png)
+![image](https://user-images.githubusercontent.com/82451887/187743612-80656a1a-7ca1-4f54-8a24-ee94949fdaf7.png)
+![image](https://user-images.githubusercontent.com/82451887/187743620-dcc3912e-4139-4682-b277-250af4e390f3.png)
+![image](https://user-images.githubusercontent.com/82451887/187743631-cfab3466-c666-4fa6-b39f-010d83f3810a.png)
+![image](https://user-images.githubusercontent.com/82451887/187743644-c2fa10cb-15ad-4267-b31e-93d7782840c4.png)
+![image](https://user-images.githubusercontent.com/82451887/187743662-65ed64c1-cb26-4974-9918-0c360806de8f.png)
+![image](https://user-images.githubusercontent.com/82451887/187743687-06ff2d16-1e19-4502-b918-e55ad2250ed2.png)
+
 
