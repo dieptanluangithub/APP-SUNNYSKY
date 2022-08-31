@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="hmd.example.firebaseprojectstudyenglish.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+    <activity
+        android:id="@+id/nav_admin"
+        android:label="Quản Lý"
+        android:name="hmd.example.firebaseprojectstudyenglish.admin.AdminActivity"
+        tools:layout="@layout/activity_admin"
+        />
+
+    <activity
+        android:id="@+id/HocTuVung"
+        android:label="Học từ vựng"
+        android:name="hmd.example.firebaseprojectstudyenglish.hoctuvung.HocTuVungActivity"
+        tools:layout="@layout/activity_hoctuvung"
+        />
+    <activity
+        android:id="@+id/DSTuVung"
+        android:label="Danh sách từ vựng"
+        android:name="hmd.example.firebaseprojectstudyenglish.hoctuvung.DSTuVungActivity"
+        tools:layout="@layout/activity_ds_tuvung"
+        />
+
+    <activity
+        android:id="@+id/SapXepCau"
+        android:label="Word Matters"
+        android:name="hmd.example.firebaseprojectstudyenglish.sapxepcau.SapXepCauActivity"
+        tools:layout="@layout/activity_sapxepcau"
+        />
+    <activity
+        android:id="@+id/ThongTinTaiKhoan"
+        android:label="Thong Tin Tai Khhoan"
+        android:name="hmd.example.firebaseprojectstudyenglish.taikhoan.ThongTinTaikhoanActivity"
+        tools:layout="@layout/activity_thong_tin_taikhoan"
+        />
+    <activity
+        android:id="@+id/TracNghiem"
+        android:label="Trac Nghiem"
+        android:name="hmd.example.firebaseprojectstudyenglish.tracnghiem.TracNghiemActivity"
+        tools:layout="@layout/activity_trac_nghiem"
+        ></activity>
+    <activity
+        android:id="@+id/DienKhuyet"
+        android:label="Dien Khuyet"
+        android:name="hmd.example.firebaseprojectstudyenglish.dienkhuyet.DienKhuyetActivity"
+        tools:layout="@layout/activity_dien_khuyet"
+        ></activity>
+    <activity
+        android:id="@+id/LuyenNghe"
+        android:label="Luyen Nghe"
+        android:name="hmd.example.firebaseprojectstudyenglish.luyennghe.LuyenNgheActivity"
+        tools:layout="@layout/activity_luyen_nghe"
+        ></activity>
+    <activity
+        android:id="@+id/XepHang"
+        android:label="Xep Hang"
+        android:name="hmd.example.firebaseprojectstudyenglish.taikhoan.RankingActivity"
+        tools:layout="@layout/activity_ranking"
+        ></activity>
+
+    <fragment
+        android:id="@+id/logout"
+        android:name="hmd.example.firebaseprojectstudyenglish.ui.home.LogoutFragment"
+        tools:layout="@layout/fragment_logout"></fragment>
+</navigation>

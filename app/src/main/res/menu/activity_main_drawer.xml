@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_main"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_admin"
+            android:icon="@drawable/rankcustomer"
+            android:title="@string/action_admin" />
+
+
+    </group>
+    <item android:title="Học Tập">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item android:title="Học Từ Vựng"
+                    android:id="@+id/HocTuVung"
+                    android:icon="@drawable/ic_vocabulary"/>
+
+            </group>
+        </menu>
+    </item>
+    <item android:title="Bài Kiểm Tra">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item android:title="Trắc Nghiệm"
+                    android:id="@+id/TracNghiem"
+                    android:icon="@drawable/ic_baseline_find_in_page_24"></item>
+                <item android:title="Điền Khuyết"
+                    android:id="@+id/DienKhuyet"
+                    android:icon="@drawable/ic_spacefill"></item>
+                <item android:title="Sắp Xếp Câu"
+                    android:id="@+id/SapXepCau"
+                    android:icon="@drawable/ic_order"></item>
+                <item android:title="Luyện Nghe"
+                    android:id="@+id/LuyenNghe"
+                    android:icon="@drawable/ic_hearing"></item>
+            </group>
+        </menu>
+    </item>
+    <item android:title="Tài Khoản">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item android:title="Thông Tin Tài Khoản"
+                    android:icon="@drawable/ic_person"
+                    android:id="@+id/ThongTinTaiKhoan"
+                    ></item>
+                <item android:title="Bảng Xếp Hạng"
+                    android:id="@+id/XepHang"
+                    android:icon="@drawable/rank"></item>
+                <item android:title="Đăng xuất"
+                    android:icon="@drawable/ic_logout"
+                    android:id="@+id/logout"></item>
+            </group>
+        </menu>
+    </item>
+</menu>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="hmd.example.firebaseprojectstudyenglish">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FirebaseProjectStudyEnglish">
+        <activity android:name=".taikhoan.RankingActivity" />
+        <activity android:name=".dienkhuyet.FinishDKActivity" />
+        <activity android:name=".dienkhuyet.FillBlanksActivity" />
+        <activity android:name=".dienkhuyet.DienKhuyetActivity" />
+        <activity android:name=".taikhoan.ForgotPasswordActivity" />
+        <activity android:name=".sapxepcau.FinishSXCActivity" />
+        <activity android:name=".tracnghiem.FinishQuizActivity" />
+        <activity android:name=".tracnghiem.QuizActivity" />
+        <activity android:name=".tracnghiem.TracNghiemActivity" />
+        <activity android:name=".luyennghe.FinishQuizLSActivity" />
+        <activity android:name=".luyennghe.LuyenNgheActivity" />
+        <activity android:name=".taikhoan.ThongTinTaikhoanActivity" />
+        <activity android:name=".sapxepcau.ArrangeSentencesActivity" />
+        <activity android:name=".sapxepcau.SapXepCauActivity" />
+        <activity android:name=".hoctuvung.FinishHTVActivity" />
+        <activity android:name=".hoctuvung.WordMattersActivity" />
+        <activity android:name=".hoctuvung.DSTuVungActivity" />
+        <activity android:name=".hoctuvung.HocTuVungActivity" />
+        <activity android:name=".luyennghe.ListeningActivity" />
+        <activity android:name=".admin.AdminActivity"/>
+        <activity android:name=".admin.bohoctap.AdminBoHocTapActivity"/>
+        <activity android:name=".admin.bohoctap.EditBoHocTapActivity"/>
+        <activity android:name=".admin.bohoctap.AddBoHocTapActivity"/>
+        <activity android:name=".admin.tuvung.AdminBoTuVungActivity"/>
+        <activity android:name=".admin.tuvung.AdminTuVungActivity"/>
+        <activity android:name=".admin.tuvung.EditTuVungActivity"/>
+        <activity android:name=".admin.tuvung.AddTuVungActivity"/>
+        <activity android:name=".admin.tracnghiem.AdminBoTracNghiemActivity"/>
+        <activity android:name=".admin.tracnghiem.AdminTracNghiemActivity"/>
+        <activity android:name=".admin.tracnghiem.AddTracNghiemActivity"/>
+        <activity android:name=".admin.tracnghiem.EditTracNghiemActivity"/>
+        <activity android:name=".admin.sapxepcau.AdminBoSapXepCauActivity"/>
+        <activity android:name=".admin.sapxepcau.AdminSapXepCauActivity"/>
+        <activity android:name=".admin.sapxepcau.EditSapXepCauActivity"/>
+        <activity android:name=".admin.sapxepcau.AddSapXepCauActivity"/>
+        <activity android:name=".admin.luyennghe.AdminBoLuyenNgheActivity"/>
+        <activity android:name=".admin.luyennghe.AdminLuyenNgheActivity"/>
+        <activity android:name=".admin.luyennghe.EditLuyenNgheActivity"/>
+        <activity android:name=".admin.luyennghe.AddLuyenNgheActivity"/>
+        <activity android:name=".admin.dienkhuyet.AdminBoDienKhuyetActivity"/>
+        <activity android:name=".admin.dienkhuyet.AdminDienKhuyetActivity"/>
+        <activity android:name=".admin.dienkhuyet.AddDienKhuyetActivity"/>
+        <activity android:name=".admin.dienkhuyet.EditDienKhuyetActivity"/>
+        <activity
+            android:name=".MainActivity"
+            android:exported="false"
+            android:label="@string/title_activity_main"
+            android:theme="@style/Theme.FirebaseProjectStudyEnglish.NoActionBar" />
+        <activity android:name=".taikhoan.SignupActivity" />
+        <activity android:name=".taikhoan.LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
